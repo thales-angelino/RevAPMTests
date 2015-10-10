@@ -1,0 +1,6 @@
+{
+  "user": "USER",
+  "pwd": "PASSWORD",
+  "wrongPwd": "WRONG_PASSWORD",
+  "url": "https://api.revsw.net/"
+}

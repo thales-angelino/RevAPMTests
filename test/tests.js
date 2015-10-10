@@ -1,14 +1,9 @@
 var should = require('should');
 var assert = require('assert');
 var request = require('supertest');
+var config = require('../res/config.json');
 
 describe('Activity Suite', function () {
-    var config = {
-        user: 'USERNAME',
-        pwd: 'PASSWORD',
-        wrongPwd: 'WRONG_PASSWORD',
-        url: 'https://api.revsw.net/'
-    };
 
     before(function (done) {
         console.info('Test Suite Started');
