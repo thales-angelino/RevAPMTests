@@ -1,0 +1,22 @@
+{
+  "name": "RevAPM",
+  "version": "1.0.0b",
+  "description": "simple test for RevAPM API",
+  "author": "@thales_angelino",
+  "engines": {
+    "node": "0.12.x",
+    "npm": "^2.11.3"
+  },
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "mocha": "^1.17.1",
+    "should": "^7.1.0",
+    "supertest": "^1.1.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --reporter spec test"
+  }
+}
